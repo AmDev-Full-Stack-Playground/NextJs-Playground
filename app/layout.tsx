@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={ubuntu.className}>
-        <main className=''>
+        <main className='min-h-screen p-6 md:p-12 bg-magnolia'>
           {children}
         </main>
       </body>
