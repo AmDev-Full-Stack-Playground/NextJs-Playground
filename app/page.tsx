@@ -71,7 +71,7 @@ export default function Home() {
         </div>
       </div>
       <div className='flex-1 h-full w-full p-9 flex items-center justify-center'>
-        <div className='max-w-lg'>
+        <div className='max-w-xl w-full'>
           {currentStep === 1 && (
             <div className='w-full'>
               <h1 className='text-marine_blue text-3xl font-medium '>Personal info</h1>
@@ -98,7 +98,12 @@ export default function Home() {
               </form>
             </div>
           )}
-          <div className='flex items-center justify-between max-w-lg w-full'>
+          {currentStep === 2 && (
+            <div className='w-full'>
+              
+            </div>
+          )}
+          <div className='flex items-center justify-between w-full mt-11 md:mt-16'>
             {currentStep > 1 ? (
               <button className='transition text-cool_gray hover:text-marine_blue px-6 py-2 rounded-md font-medium' onClick={gotoPrevPage}>
                 Go Back

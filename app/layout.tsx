@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={ubuntu.className}>
         <main className='p-6 md:p-12 bg-magnolia flex items-center justify-center min-h-screen'>
-          <div className='max-w-7xl bg-white w-full p-6 rounded-2xl md:h-[680px]'>
+          <div className='max-w-7xl bg-white w-full p-4 rounded-2xl md:h-[680px]'>
             {children}
           </div>
         </main>
